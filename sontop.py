@@ -34,3 +34,14 @@ def sontop_pc(x=10):
         else:
             break
     print("Topdim!!")
+
+    
+ishora = True
+while ishora:
+    qiymat = input("son topish o`yinini oynashni istaysizmi yes/no: ")
+    if qiymat =='no':
+        break
+    else:
+        sonTop()
+        print("endi kompyuter topadi siz oylaysiz")
+        sontop_pc()
