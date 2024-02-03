@@ -7,7 +7,6 @@ def sonTop(x=10):
     while True:
         person = int(input("komp oylagan soni kiriting: "))
         n+=1
-        
         if person<komp_int:
             print(f"komp oylagan son {person} dan katta")
         elif person>komp_int:
@@ -15,7 +14,6 @@ def sonTop(x=10):
         else:
             break
     print(f"tabriklaymiz siz {n} martada topdingiz")
-
 
 
 def sontop_pc(x=10):
