@@ -15,3 +15,22 @@ def sonTop(x=10):
         else:
             break
     print(f"tabriklaymiz siz {n} martada topdingiz")
+
+
+
+def sontop_pc(x=10):
+    quyi = 1
+    yuqori = x
+    while True:
+        if quyi!=yuqori:
+            pc = r.randint(quyi,yuqori)
+        else:
+            pc = yuqori
+        javob = input(f"siz {pc} son  oyladingiz togri bo'lsa (t) kattaroq (+) kichikroq (-): ".lower())
+        if javob == '-':
+            yuqori = pc-1
+        elif javob =='+':
+            quyi = pc+1
+        else:
+            break
+    print("Topdim!!")
